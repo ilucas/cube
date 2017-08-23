@@ -13,6 +13,8 @@
 		A000F81E1F4DDD5200C8D6DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A000F81C1F4DDD5200C8D6DA /* Main.storyboard */; };
 		A000F8201F4DDD5200C8D6DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A000F81F1F4DDD5200C8D6DA /* Assets.xcassets */; };
 		A000F8231F4DDD5200C8D6DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A000F8211F4DDD5200C8D6DA /* LaunchScreen.storyboard */; };
+		A000F82B1F4DF6EB00C8D6DA /* ShipScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000F82A1F4DF6EB00C8D6DA /* ShipScene.swift */; };
+		A000F82D1F4DF7A400C8D6DA /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000F82C1F4DF7A400C8D6DA /* Cube.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A000F81F1F4DDD5200C8D6DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A000F8221F4DDD5200C8D6DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A000F8241F4DDD5200C8D6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A000F82A1F4DF6EB00C8D6DA /* ShipScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipScene.swift; sourceTree = "<group>"; };
+		A000F82C1F4DF7A400C8D6DA /* Cube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				A000F8161F4DDD5200C8D6DA /* AppDelegate.swift */,
 				A000F8181F4DDD5200C8D6DA /* art.scnassets */,
 				A000F81A1F4DDD5200C8D6DA /* GameViewController.swift */,
+				A000F82A1F4DF6EB00C8D6DA /* ShipScene.swift */,
+				A000F82C1F4DF7A400C8D6DA /* Cube.swift */,
 				A000F81C1F4DDD5200C8D6DA /* Main.storyboard */,
 				A000F81F1F4DDD5200C8D6DA /* Assets.xcassets */,
 				A000F8211F4DDD5200C8D6DA /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A000F82D1F4DF7A400C8D6DA /* Cube.swift in Sources */,
 				A000F81B1F4DDD5200C8D6DA /* GameViewController.swift in Sources */,
+				A000F82B1F4DF6EB00C8D6DA /* ShipScene.swift in Sources */,
 				A000F8171F4DDD5200C8D6DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34QJMY7W4A;
 				INFOPLIST_FILE = Blocks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.not.work.Blocks;
@@ -293,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34QJMY7W4A;
 				INFOPLIST_FILE = Blocks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.not.work.Blocks;
