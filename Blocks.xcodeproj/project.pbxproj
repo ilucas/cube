@@ -15,6 +15,7 @@
 		A000F8231F4DDD5200C8D6DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A000F8211F4DDD5200C8D6DA /* LaunchScreen.storyboard */; };
 		A000F82B1F4DF6EB00C8D6DA /* ShipScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000F82A1F4DF6EB00C8D6DA /* ShipScene.swift */; };
 		A000F82D1F4DF7A400C8D6DA /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000F82C1F4DF7A400C8D6DA /* Cube.swift */; };
+		A03D2DA8235E57F1007791AC /* GLCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03D2DA7235E57F1007791AC /* GLCube.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A000F8241F4DDD5200C8D6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A000F82A1F4DF6EB00C8D6DA /* ShipScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipScene.swift; sourceTree = "<group>"; };
 		A000F82C1F4DF7A400C8D6DA /* Cube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
+		A03D2DA7235E57F1007791AC /* GLCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLCube.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				A000F81F1F4DDD5200C8D6DA /* Assets.xcassets */,
 				A000F8211F4DDD5200C8D6DA /* LaunchScreen.storyboard */,
 				A000F8241F4DDD5200C8D6DA /* Info.plist */,
+				A03D2DA7235E57F1007791AC /* GLCube.swift */,
 			);
 			path = Blocks;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				A000F81B1F4DDD5200C8D6DA /* GameViewController.swift in Sources */,
 				A000F82B1F4DF6EB00C8D6DA /* ShipScene.swift in Sources */,
 				A000F8171F4DDD5200C8D6DA /* AppDelegate.swift in Sources */,
+				A03D2DA8235E57F1007791AC /* GLCube.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
